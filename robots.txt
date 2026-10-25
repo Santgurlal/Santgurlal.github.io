@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /living-lab/
+
+Sitemap: https://santgurlal.github.io/sitemap.xml

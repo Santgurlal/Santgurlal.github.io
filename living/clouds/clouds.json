@@ -1,0 +1,120 @@
+{
+ "regions": {
+  "peaks": [
+   975,
+   280,
+   780,
+   340
+  ],
+  "lmid": [
+   580,
+   20,
+   660,
+   600
+  ],
+  "cliff": [
+   0,
+   0,
+   830,
+   530
+  ],
+  "right": [
+   1410,
+   0,
+   1342,
+   730
+  ]
+ },
+ "bands": [
+  {
+   "name": "pk1",
+   "region": "peaks",
+   "x": 1010.0,
+   "y": 313.0,
+   "w": 640,
+   "h": 304.0,
+   "angle": 0,
+   "drift": 0.1,
+   "dper": 150,
+   "fper": 34,
+   "op": 0.9,
+   "tier": 0,
+   "turb": true
+  },
+  {
+   "name": "pk2",
+   "region": "peaks",
+   "x": 1050.0,
+   "y": 299.0,
+   "w": 380,
+   "h": 192.0,
+   "angle": -6,
+   "drift": 0.12,
+   "dper": 120,
+   "fper": 27,
+   "op": 0.75,
+   "tier": 0,
+   "turb": true
+  },
+  {
+   "name": "pk3",
+   "region": "peaks",
+   "x": 1300.0,
+   "y": 389.0,
+   "w": 400,
+   "h": 272.0,
+   "angle": -14,
+   "drift": 0.1,
+   "dper": 135,
+   "fper": 41,
+   "op": 0.85,
+   "tier": 0,
+   "turb": true
+  },
+  {
+   "name": "lm1",
+   "region": "lmid",
+   "x": 580.0,
+   "y": 144.0,
+   "w": 560,
+   "h": 352.0,
+   "angle": 27,
+   "drift": 0.09,
+   "dper": 110,
+   "fper": 31,
+   "op": 0.85,
+   "tier": 1,
+   "turb": true
+  },
+  {
+   "name": "lm2",
+   "region": "lmid",
+   "x": 790.0,
+   "y": 268.0,
+   "w": 440,
+   "h": 384.0,
+   "angle": 38,
+   "drift": 0.08,
+   "dper": 125,
+   "fper": 38,
+   "op": 0.75,
+   "tier": 1,
+   "turb": false
+  },
+  {
+   "name": "cl1",
+   "region": "cliff",
+   "x": -30.0,
+   "y": 90.0,
+   "w": 720,
+   "h": 480.0,
+   "angle": 4,
+   "drift": 0.08,
+   "dper": 95,
+   "fper": 29,
+   "op": 0.6,
+   "tier": 2,
+   "turb": false
+  }
+ ]
+}

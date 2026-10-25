@@ -1,0 +1,1 @@
+.ch-root{pointer-events:none;position:absolute;inset:0}.ch-plate,.ch-smoke{pointer-events:none;display:block;position:absolute}.ch-smoke{opacity:0;transition:opacity 1.2s}.ch-smoke.ch-on{opacity:1}@media (prefers-reduced-motion:reduce){.ch-plate,.ch-smoke{display:none}}
