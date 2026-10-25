@@ -44,6 +44,9 @@ if grep -rqlE 'RESUME_VARIANT|/Users/|portfolio-kit|MASTER-LIST' "$OUT"; then
 fi
 [ "$fail" = 0 ] || { echo "Aborted: nothing copied."; exit 1; }
 
+# ---- Dev-only pages never ship. ----
+rm -rf "$OUT/living-lab" "$OUT/drafts"
+
 # ---- Replace the repo root with out/ (keeps git metadata and the deploy tooling). ----
 rsync -a --delete \
   --exclude .git --exclude deploy.sh --exclude DEPLOY.md --exclude .gitignore --exclude CNAME \
